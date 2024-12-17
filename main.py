@@ -7,7 +7,7 @@ class Car:
 
     def check_model_vin(self, number):
         if self.vin_number == number:
-            print(f'Твой VIN номер {number} is valid')
+            print(f'Твоя машина -- это {self.make}')
         else:
             print(f'Твой VIN номер {number} is not valid')
 
