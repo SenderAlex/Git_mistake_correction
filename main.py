@@ -9,7 +9,7 @@ class Car:
         if self.vin_number == number:
             print(f'Твоя машина -- это {self.make}')
         else:
-            print(f'Твой VIN номер {number} is not valid')
+            print(f'Твоя машина -- это не {self.make}')
 
 car = Car( 'Renault', 'Espace', 'V', '390218310938')
 
