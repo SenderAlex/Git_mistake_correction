@@ -14,3 +14,4 @@ class Car:
 car = Car( 'Renault', 'Espace', 'V', '390218310938')
 
 car.check_model_vin('390218310938')
+print(f'Hello {car.model}')
